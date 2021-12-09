@@ -74,8 +74,8 @@ function rollDicePlayer() {
     if (isPlaying) {
         diceImg.classList.remove('hidden');
         let dice = Math.floor(Math.random() * 6) + 1;
-        diceImg.setAttribute('src', `images/dice-${dice}.png`)
-        // diceImg.src = `dice-${dice}.png`;
+        // diceImg.setAttribute('src', `images/dice-${dice}.png`)
+        diceImg.src = `images/dice-${dice}.png`;
         if (dice !== 1) {
             currScore += dice;
             document.getElementById(`current--${activePlayer}`).textContent = currScore;
