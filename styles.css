@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
 * {
   margin: 0;
@@ -12,11 +12,11 @@ html {
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   height: 100vh;
   color: #333;
-  background-image : linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
   /* background-image  : linear-gradient(to top left, #434343 0%, #000000 100%); */
   display: flex;
   align-items: center;
@@ -24,6 +24,7 @@ body {
 }
 
 /* LAYOUT */
+
 main {
   position: relative;
   width: 100rem;
@@ -32,12 +33,10 @@ main {
   backdrop-filter: blur(200px);
   filter: blur();
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
-  border-radius: 9px;
+  border-radius: 0.9rem;
   overflow: hidden;
   display: flex;
 }
-
-
 
 .player {
   flex: 50%;
@@ -53,8 +52,8 @@ main {
   position: relative;
   font-size: 4rem;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  word-spacing: 2px;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.2rem;
   font-weight: 300;
   margin-bottom: 1rem;
 }
@@ -83,9 +82,9 @@ main {
 .current {
   background-color: #c7365f;
   opacity: 0.8;
-  border-radius: 9px;
+  border-radius: 0.9rem;
   color: #fff;
-  width: 65%;
+  width: 20.8rem;
   padding: 2rem;
   text-align: center;
   transition: all 0.75s;
@@ -133,7 +132,7 @@ main {
 }
 
 .btn--instructions {
-  top : 52.9rem;
+  top: 52.9rem;
 }
 
 .btn--new {
@@ -148,7 +147,7 @@ main {
 }
 
 .btn:active {
-  transform: translate(-50%, 3px);
+  transform: translate(-50%, 0.3rem);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
 }
 
@@ -163,7 +162,6 @@ main {
   transform: translateX(-50%);
   height: 10rem;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
-  
 }
 
 .player--winner {
@@ -179,8 +177,6 @@ main {
 }
 
 /*modal*/
-
-
 
 .close-modal {
   position: absolute;
@@ -202,7 +198,7 @@ main {
   height: 90%;
   background-color: white;
   padding: 6rem;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
   z-index: 10;
 }
@@ -218,7 +214,7 @@ main {
   z-index: 5;
 }
 
-.instructions{
+.instructions {
   font-size: 2rem;
 }
 
